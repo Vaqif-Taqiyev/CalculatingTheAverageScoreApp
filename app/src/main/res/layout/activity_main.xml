@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/bal1"
+        android:layout_width="170dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="50dp"
+        android:ems="10"
+        android:hint="@string/bal_daxil_edin"
+        android:inputType="number"
+        app:layout_constraintEnd_toStartOf="@+id/s1"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="DuplicateSpeakableTextCheck,DuplicateSpeakableTextCheck" />
+
+    <Spinner
+        android:id="@+id/s1"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/bal1"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/bal2"
+        android:layout_width="170dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="50dp"
+        android:ems="10"
+        android:hint="@string/bal_daxil_edin"
+        android:inputType="number"
+        app:layout_constraintEnd_toStartOf="@+id/s2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bal1" />
+
+    <Spinner
+        android:id="@+id/s2"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/bal2"
+        app:layout_constraintTop_toBottomOf="@+id/s1"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/bal3"
+        android:layout_width="170dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="50dp"
+        android:ems="10"
+        android:hint="@string/bal_daxil_edin"
+        android:inputType="number"
+        app:layout_constraintEnd_toStartOf="@+id/s3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bal2" />
+
+    <Spinner
+        android:id="@+id/s3"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/bal3"
+        app:layout_constraintTop_toBottomOf="@+id/s2"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/bal4"
+        android:layout_width="170dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="50dp"
+        android:ems="10"
+        android:hint="@string/bal_daxil_edin"
+        android:inputType="number"
+        app:layout_constraintEnd_toStartOf="@+id/s4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bal3" />
+
+    <Spinner
+        android:id="@+id/s4"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/bal4"
+        app:layout_constraintTop_toBottomOf="@+id/s3"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/bal5"
+        android:layout_width="170dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="50dp"
+        android:ems="10"
+        android:hint="@string/bal_daxil_edin"
+        android:inputType="number"
+        app:layout_constraintEnd_toStartOf="@+id/s5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bal4" />
+
+    <Spinner
+        android:id="@+id/s5"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/bal5"
+        app:layout_constraintTop_toBottomOf="@+id/s4"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/bal6"
+        android:layout_width="170dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="50dp"
+        android:ems="10"
+        android:hint="@string/bal_daxil_edin"
+        android:inputType="number"
+        app:layout_constraintEnd_toStartOf="@+id/s6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bal5" />
+
+    <Spinner
+        android:id="@+id/s6"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/bal6"
+        app:layout_constraintTop_toBottomOf="@+id/s5"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/shwBtn"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="600dp"
+        android:text="Show"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="349dp"
+        android:layout_height="114dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/shwBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bal6"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
